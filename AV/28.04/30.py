@@ -18,5 +18,6 @@ while(RUN):
 
     print(f"Количество слов, начинающихся с указанной буквы: {count}")
     prompt = input('Чтобы выйти пропишите \"quit\"\n').lower()
+    count = 0
     if prompt == 'quit':
         RUN =False
